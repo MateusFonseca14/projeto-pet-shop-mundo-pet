@@ -653,3 +653,23 @@ button:active {
     align-items: center;
   }
 }
+
+@media (max-width: 420px) {
+    .hero-imagem img {
+      width: 315px;
+    }   
+
+    .footer {
+      padding: 4rem 1.5rem 2rem;
+    } 
+
+    .container {
+      text-align: center;
+    }
+
+    .footer-flex {
+      flex-direction: column;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+}
