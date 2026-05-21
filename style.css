@@ -655,7 +655,15 @@ button:active {
 }
 
 @media (max-width: 420px) {
-    .hero-imagem img {
+  .intro {
+    font-size: 3.0rem;
+  }  
+  
+  .hero h2 {
+    font-size: 2.4rem;
+  }
+
+  .hero-imagem img {
       width: 315px;
     }   
 
